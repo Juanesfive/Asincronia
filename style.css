@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .navegador {
+    text-align: center;
+  }
+  
+  .Ejercicios {
+    margin: 400px;
+  }
+  
+  .Ejercicios__item {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+   
+  }
+  
+  .Ejercicios__link {
+    padding: 2px 7px 2px 7px;
+    color: #000000;
+    background-color: #79f5c1;
+    border: 1px solid #928f8f;
+    text-decoration: none;
+  }
+  
+  .Ejercicios__link:hover {
+    background-color: #00e1ff;
+    color: #ffffff;
+  }
