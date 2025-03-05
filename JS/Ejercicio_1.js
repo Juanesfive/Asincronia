@@ -23,4 +23,6 @@ function imprimirNumeros(desde, hasta) {
     }, 1000); // Aquí le decimos a la funcion de setInterval que se ejecute cada segundo
 }
 
-imprimirNumeros(desde, hasta); // Aquí se llama a la funcion "imprimirNumeros" con los parametros "desde" y "hasta" para que se ejecute.
+imprimirNumeros(desde, hasta); // Aquí se llama a la funcion "imprimirNumeros" con los parametros "desde" y "hasta" para que se ejecute.  
+
+
