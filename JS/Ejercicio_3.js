@@ -4,16 +4,19 @@
 // • obtenga el resultado
 // • lo pushee a un nuevo array
 
-let datos = [1,2,3,4,5,6,7,8,9];
+let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-
-function map(datos, callback) {
-        datos.map(function(resultado){
-            return resultado;
-            
-        })
-    
-}
+function map(arreglo, callback) {
+    let resultadoFinal = [];
+    for (let indice = 0; indice < arreglo.length; indice++) {
+      let valorProcesado = callback(arreglo[indice]);
+      resultadoFinal.push(valorProcesado);
+    }
+    return resultadoFinal;
+  }
+  
+  console.log(map(arreglo, (elemento) => elemento * 2));
+  
 
 
 
